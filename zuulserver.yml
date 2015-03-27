@@ -1,8 +1,9 @@
 info:
   component: zuul server app
+
 spring:
   profiles:
-    active: default
+    active: dev
     
 server:
   port: 8080
