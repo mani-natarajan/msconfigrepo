@@ -14,14 +14,11 @@ zuul:
     strings:
       path: /echo/**
       serviceId: microServiceEcho
-    locations:
-      path: /locate/**
-      serviceId: MicroServiceLocator
     stores:
       path: /stores/**
       serviceId: MicroServiceStores
     pdads:
-      path: /kiran/**
+      path: /pdads/**
       serviceId: pdads-redis
 error:
   whitelabel:
