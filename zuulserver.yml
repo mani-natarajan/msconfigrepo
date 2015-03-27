@@ -1,24 +1,9 @@
 info:
   component: zuul server app
 
-spring:
-  profiles:
-    active: default
-    
 server:
   port: 8080
-  
-spring:
-  profiles: dev # not standalone
-server:
-  port: 8082
-  
-spring:
-  profiles: prod # not standalone
-server:
-  port: 8087
-  
-  
+
 spring:
    config:
       name:  zuulserver
