@@ -9,17 +9,6 @@ spring:
       name:  zuulserver
    application:
       name:  zuulserver
-zuul:
-  routes:
-    strings:
-      path: /echo/**
-      serviceId: microServiceEcho
-    stores:
-      path: /stores/**
-      serviceId: MicroServiceStores
-    pdads:
-      path: /pdads/**
-      serviceId: pdads-redis
 error:
   whitelabel:
     enabled:false
