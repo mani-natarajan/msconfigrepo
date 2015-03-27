@@ -3,7 +3,7 @@ info:
 
 spring:
   profiles:
-    active: dev
+    active: default
     
 server:
   port: 8080
