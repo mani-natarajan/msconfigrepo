@@ -13,7 +13,7 @@ spring:
 zuul:
   routes:
     strings:
-      path: /echo1/**
+      path: /echo01/**
       serviceId: microServiceEcho
     locations:
       path: /locate/**
