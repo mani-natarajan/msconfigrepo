@@ -21,6 +21,9 @@ zuul:
     stores:
       path: /stores/**
       serviceId: MicroServiceStores
+    pdads:
+      path: /pdads/**
+      serviceId:pdads-redis
       
 error:
   whitelabel:
