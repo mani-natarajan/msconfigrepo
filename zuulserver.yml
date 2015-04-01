@@ -17,7 +17,7 @@ zuul:
       serviceId: microServiceEcho
     locations:
       path: /locate/**
-      serviceId: MicroServiceLocator
+      serviceId: MicroServiceLocator1
     stores:
       path: /stores/**
       serviceId: MicroServiceStores
