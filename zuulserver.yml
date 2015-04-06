@@ -13,7 +13,7 @@ spring:
 zuul:
   routes:
     strings:
-      path: /echo01/**
+      path: /echo/**
       serviceId: microServiceEcho
     locations:
       path: /locate/**
@@ -22,8 +22,11 @@ zuul:
       path: /stores/**
       serviceId: MicroServiceStores
     pdads:
-      path: /pdads1/**
+      path: /pdads/**
       serviceId: pdads-redis
+    prana:
+      path: /prana/**
+      serviceId: prana
       
 error:
   whitelabel:
