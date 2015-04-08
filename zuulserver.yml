@@ -31,3 +31,7 @@ zuul:
 error:
   whitelabel:
     enabled:false
+logging:
+  level:
+    com.netflix: 'DEBUG'
+    org.springframework.cloud: 'DEBUG'
