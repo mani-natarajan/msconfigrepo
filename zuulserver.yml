@@ -24,7 +24,7 @@ zuul:
     pdads:
       path: /pdads/**
       serviceId: pdads-redis
-    prana:
+    sidecar:
       path: /sidecar/**
       serviceId: SIDECAR
       
