@@ -1,5 +1,5 @@
 info:
-  component: zuul server app
+  component: zuul server app1
 
 server:
   port: 8080
